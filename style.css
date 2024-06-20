@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(https://s.abcnews.com/images/GMA/AtHomeWorkoutAdobe_hpMain_16x9_992.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: transparent;
+    backdrop-filter: blur(35px);
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 550px;
+    box-shadow: 0 5px 150px 70px black;
+}
+
+.login-container h1{
+    text-align: center;
+    font-size: 3rem;
+    color: red;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px; /* Increased text size */
+}
+
+.login-container h3 {
+    text-align: center;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 80%;
+    padding: 12px; /* Increased padding for larger input area */
+    margin: 10px 0;
+    margin-left: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Increased text size */
+}
+
+.login-container button {
+    width: 50%;
+    padding: 12px; /* Increased padding for larger button */
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 140px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 18px; /* Increased text size */
+}
+
+.login-container button:hover {
+    background-color: red;
+}
+
+.password-container {
+    position: relative;
+    width: 93%;
+}
+
+.password-container input[type="password"],
+.password-container input[type="text"] {
+    padding-right: 40px; /* Adjust padding to make space for the eye icon */
+}
+
+.password-container .toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
